@@ -1,7 +1,12 @@
 ---
 title: Lavalink without SSL
 description: Without SSL should work out of the box!
+hide:
+  - navigation
 ---
+
+<h1 style="font-family:Gotham SSm A;font-size: 2.0em;font-weight: 800;line-height:1.1;color: white;">Lavalink without SSL</h1>
+
 
 <!-- inject image ad -->
 <div data-ea-style="stickybox" class="dark horizontal" data-ea-publisher="darrennathanaelcom" data-ea-type="image"></div>
@@ -16,67 +21,91 @@ Secure : false
 ```
 
 
-### Hosted by @ [SirPlancake](https://discord.gg/cYAUHdznTJ)
-This is a V3 Lavalink. See status here -> [status.sirplancake.dev](https://status.sirplancake.dev/)
-```bash
-Host : lava-v3.sirplancake.dev
-Port : 2334
-Password : "e0krPn7)yX<@j=REb!x?dWtY"
-Secure : false
-```
 
-### Hosted by @ [SirPlancake](https://discord.gg/cYAUHdznTJ)
-This is a V4 Lavalink. See status here -> [status.sirplancake.dev](https://status.sirplancake.dev/)
-```bash
-Host : lava-v4.sirplancake.dev
-Port : 2333
-Password : "KBjV?Cs>#B!>pcEZa?yc1%Vy"
-Secure : false
-```
+???+ danger "v4 is not backwards compatible with v3."
 
-### Hosted by @ [Caliwyr](https://discord.gg/6xpF6YqVDd)
-```bash
-Host : lavalink.oryzen.xyz
-Port : 80
-Password : "oryzen.xyz"
-Secure : false
-```
+    v4 introduce a breaking changes that affects all library that are using v3 API.
+    You must update your bot library to support v4!
 
-### Hosted by @ [itzExtinct7](https://youtube.com/@ItzExtinct7?si=0Wj-ayF6VLinxpuo)
+<!-- PLEASE READ -->
+<!-- PLEASE READ --> <!-- SUPPORT OTHER CONTRIBUTORS BY PLACING THE NEW LAVALINK AT THE VERY BOTTOM OF THE OTHERS! --> <!-- PLEASE READ -->
+<!-- FOR ADVERTISING CONTACT ads@darrennathanael.com , PLEASE READ FAQS FOR MORE INFO! -->
+<!-- PLEASE READ -->
+
+### Hosted by @ [Jirayu](https://jirayu.net)
+See live stats of bandwidth usage [here](https://status.jirayu.net/report/uptime/a5b140d89f605d476a19732f80a70ff6/) <br />
+If you need help of something please contact me on [discord](https://discord.gg/RPCfvBSUuM) <br />
+Version 4.0.8 | salee-plugin
 ```bash
-Host : 78.46.39.20
-Port : 6950
+Host : lavalink.jirayu.net
+Port : 13592
 Password : "youshallnotpass"
+Secure : false    
+```
+
+### Hosted by @ [hatry4/naig](https://charlesnaig.github.io/)
+Version 4.0.8 Plugins: youtube-plugin:1.8.3, lavalyrics-plugin:1.0.0, lavasrc-plugin:4.2.0, sponsorblock-plugin:3.0.1, lavasearch-plugin:1.0.0, skybot-lavalink-plugin:1.7.0, java-lyrics-plugin:1.6.5, jiosaavn-plugin:v1.0.2 and Spotify API
+```bash
+Host :  lavahatry4.techbyte.host
+Port : 3000
+Password : "NAIGLAVA-dash.techbyte.host"
 Secure : false
 ```
 
-### Hosted by @ [Darren](https://discord.glasshost.net)
-See live stats of bandwidth here -> [s1.ll.darrennathanael.com](https://s1.ll.darrennathanael.com/)
+### Hosted by @ [Amane](https://amane.my.id) & [AjieDev](https://github.com/AjieDev)
+[Website & Live Stats](https://free.lavalink.rf.gd/) | [Support server](https://dsc.gg/ajidevserver) | [Amane's Website](https://lavalink-info.serenetia.com/) | [Amane's Live Stats](https://lavalink-stats.serenetia.com/)<br />
+[SSL version](https://lavalink.darrennathanael.com/SSL/lavalink-with-ssl/#hosted-by-amane-ajiedev) <br />
+Version 3.7.12 (Unmaintained please use with your own risk) <br />
+![stat](https://ajieblogs.eu.org/lavalink/v3/badge/Status) ![up](https://ajieblogs.eu.org/lavalink/v3/badge/Uptime) ![playersv3](https://ajieblogs.eu.org/lavalink/v3/badge/Players)
 ```bash
-Host : n1.ll.darrennathanael.com
-Port : 2269
-Password : "glasshost1984"
-Secure : false
-```
-
-### Hosted by @ [SyGSys](https://discord.gg/m86ZafUWvs)
-Support: Youtube/Spotify/YoutubeMusic
-```bash
-Host : fi1.bot-hosting.net
-Port : 5345
-Password : "sygsys-https://discord.gg/m86ZafUWvs"
-Secure : false
-```
-
-### Hosted by @ [Draxler#9555](https://status.horizxon.xyz/)
-```bash
-Host : lava.horizxon.tech
+Host : lava-v3.ajieblogs.eu.org
 Port : 80
-Password : "horizxon.tech"
+Password : "https://dsc.gg/ajidevserver"
+Secure : false
+```
+```bash
+Host : lavalinkv3-id.serenetia.com
+Port : 80
+Password : "https://dsc.gg/ajidevserver"
+Secure : false
+```
+Version 4.0.8 <br />
+![stat](https://ajieblogs.eu.org/lavalink/v4/badge/Status) ![up](https://ajieblogs.eu.org/lavalink/v4/badge/Uptime) ![playersv4](https://ajieblogs.eu.org/lavalink/v4/badge/Players)
+```bash
+Host : lava-v4.ajieblogs.eu.org
+Port : 80
+Password : "https://dsc.gg/ajidevserver"
+Secure : false
+```
+```bash
+Host : lavalinkv4-id.serenetia.com
+Port : 80
+Password : "https://dsc.gg/ajidevserver"
+Secure : false
+```
+```bash
+Host : lavalinkv4-eu.serenetia.com
+Port : 80
+Password : "https://dsc.gg/ajidevserver"
+Secure : false
+```
+Version 3.x & 4.x <br />
+Works on both lavalink client that uses v3 and v4 connections
+```bash
+Host : lava-all.ajieblogs.eu.org
+Port : 80
+Password : "https://dsc.gg/ajidevserver"
+Secure : false 
+```
+```bash
+Host : lavalink.serenetia.com
+Port : 80
+Password : "https://dsc.gg/ajidevserver"
 Secure : false
 ```
 
 ### Hosted by @ [Tooxic#4580](https://albinhakanson.se)
+Version 4.0.3
 ```bash
 Host : lavalink1.albinhakanson.se
 Port : 1141
@@ -84,66 +113,52 @@ Password : "albinhakanson.se"
 Secure : false
 ```
 
-### Hosted by @ [timelessnesses](https://timelessnesses.me)
-```bash
-Host : lavalink.api.timelessnesses.me
-Port : 80
-Password : "youshallnotpass"
-Secure : false
-```
+### Hosted by @ [Clxud](https://clxud.dev/)
 
-### Hosted by @ [melike2d](https://2d.gay)
-```bash
-Host : krn.2d.gay
-Port : 80
-Password : "AWP)JQ$Gv9}dm.u"
-Secure : false
-```
-
-### Hosted by @ [Clxud](https://discord.gg/r64qjTSHG8)
+Version 4.0.7 <br />
+[Live Status](https://status.clxud.dev/status/lavalink) ・ ![statbadge](https://status.clxud.dev/api/badge/1/status) ・ ![uptimebadge](https://status.clxud.dev/api/badge/1/uptime)<br />
 ```bash
 Host : lavalink.clxud.dev
-Port: 2333
+Port : 2333
 Password : "youshallnotpass"
 Secure : false
 ```
 
-### Hosted by @ [Derpy](https://weedcloud.pro)
+### Hosted by @ [SomboyTiger](https://chompubot.work)
+See live stats of bandwidth usage [here](https://status.oreshi.com/report/uptime/87063efef7cb4252c86331f882451919/) | Support server [here](https://discord.gg/RPCfvBSUuM) <br />
+Version 4 (Wasabi) | Plugin: salee-plugin, sponsorblock-plugin
 ```bash
-Host : us-2.weedcloud.pro
+Host : lavalink.ipv4.oreshi.com
 Port : 2333
-Password : "ilovemonkeys"
+Password : "mfkdlgmklmlenrfmklsdmnfkldnslkansdlknfdlksnflksdnkf"
+Secure : false    
+```
+
+### Hosted by @ [Anantix Network](https://www.anantix.network/en)
+If you need help of something please contact me on [discord](https://discord.gg/anantix) <br />
+Version 4.0.8 | salee-plugin | Lavalink Build by [Jirayu](https://jirayu.net)
+```bash
+Host : lavalink.anantix.network 
+Port : 2335
+Password : "pg6|(}7fuD_:7d#QQq?9"
+Secure : false    
+```
+
+### Hosted by @ [Nextgen Coders](https://discord.gg/9J9X4fzhSt) | [uptime](https://node.nextgencoders.xyz)
+Version 4.0.8 | Lavalink by [mahaaranii](https://discord.gg/9J9X4fzhSt)
+```bash
+Host : lava-v4.nextgencoders.xyz 
+Port : 2333
+Password : "freemenahimilta"
 Secure : false
 ```
 
-### Hosted by @ [Gamer3514](https://sillydev.co.uk)
+### Hosted by @ [Catfein](https://discord.gg/5DQ7XWK5Hy) | [Uptime](https://hetrixtools.com/report/uptime/0da291f13750558ad637bf795974619b/)
+Version 4.0.8 | Lavalink by [JAnimeREACTS](https://discord.gg/Kzc7yCy9uY) Plugins: youtube-plugin:1.11.3, baldman-plugin:4.5.0, skybot-lavalink-plugin:1.7.0, sponsorblock-plugin:3.0.1, lavasearch-plugin:1.0.0
+**REMINDER:** <span style="color:red;">You must have a v4 client to connect to this lavalink!</span>
 ```bash
-Host : panel.sillydev.co.uk
-Port : 6039
-Password : "bestfreehosting"
-Secure : false
-```
-
-### Hosted by @ [Gamer3514](https://sillydev.co.uk)
-```bash
-Host : lavalink.sillydev.co.uk
-Port : 6023
-Password : "discord.gg/sillydev"
-Secure : false
-```
-
-### Hosted by @ [blubsyy](https://discord.gg/zenithbot)
-```bash
-Host : 185.255.5.126
-Port : 5533
-Password : "blubpubliclava"
-Secure : false
-```
-
-### Hosted by @ [Guardian Cloud Services](https://botlist.lol/discord)
-```bash
-Host : nyc1.guardiancloud.xyz
-Port : 10002
-Password : GuardianCloudServices
-Secure : false
+Host: 109.176.17.107
+Port: 20003
+Password: "jmlitev4"
+Secure: false
 ```

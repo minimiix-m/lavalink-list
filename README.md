@@ -1,7 +1,7 @@
-<h3 align="center">Lavalink List</h3>
+<h1 align="center">Lavalink List</h3>
 
   <p align="center">
-    For quality control I checked on these servers per weekly basis, if the lavalink is offline / unreachable it will be removed.
+    For quality control I checked on these servers per weekly basis, if the lavalink is offline / unreachable / zero uptime it will be removed.
     <br />
     <a href="https://lavalink-list.darrennathanael.com"><strong>Open Website »</strong></a>
     <br />
@@ -11,6 +11,8 @@
     <a href="https://github.com/DarrenOfficial/lavalink-list/issues">Report Bug</a>
     ·
     <a href="https://github.com/DarrenOfficial/lavalink-list/issues">Request Feature</a>
+    ·
+    <a href="https://status.ajieblogs.eu.org/status/public-lavalink-stats">Status Page</a>
   </p>
 </div>
 
